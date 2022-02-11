@@ -1,0 +1,31 @@
+.option{
+    display: flex;
+    flex-direction: column;
+}
+.option input{
+    display: none;
+}
+.option label{
+    background-color: var(--body-background-color);
+    margin: 0.5rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.option .success{
+    background-color: var(--success-color);
+    color: var(--lg-color);
+}
+.option .error{
+    background-color: var(--error-color);
+    color: var(--lg-color);
+}
+.option label:hover{
+    cursor: auto;
+}
+.main-container *{
+    margin-bottom: 1.5rem;
+}
+.divider{
+    border: 2px solid var(--font--secondary-color);
+    padding-left: 12rem;
+}
