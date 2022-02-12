@@ -75,6 +75,9 @@ ul{
 .btn a{
     color: var(--lg-color);
 }
+.btn-secondary{
+    background-color: var(--font--secondary-color);
+}
 .promo-img{
     max-width: 35rem;
 
@@ -116,7 +119,7 @@ ul{
     flex-direction: column;
     align-items: center;
     padding: 2.5rem;
-    min-height: 2.5rem; 
+    min-height: 3rem; 
     background-color: var(--primary-color);
     color: var(--lg-color);
 }

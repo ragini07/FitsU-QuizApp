@@ -1,0 +1,29 @@
+.form-container{
+    border: 2px solid var(--primary-color);
+    padding: 1rem;
+    border-radius: 8px;   
+}
+.sub-container{
+    display: flex;
+    gap:2rem;
+    padding: 0.5rem 0 0.5rem;
+}
+.sub-container .title{
+    font-weight: bold;
+}
+.form-data{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    text-align: center;
+    padding: 0.8rem;
+
+}
+.form-data h1{
+    margin-bottom: 0.5rem;
+}
+.form-data .btnn{
+    margin-top: 1rem;
+    margin-left: 0;
+}
