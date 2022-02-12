@@ -119,7 +119,7 @@ ul{
     flex-direction: column;
     align-items: center;
     padding: 2.5rem;
-    min-height: 2.5rem; 
+    min-height: 3rem; 
     background-color: var(--primary-color);
     color: var(--lg-color);
 }
