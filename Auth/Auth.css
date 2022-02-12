@@ -37,12 +37,6 @@ span{
     margin:10px;
 }
 
-
-/* a{
-    color:black;
-    text-decoration: none;
-    font-weight: bold;
-} */
 .sign-up-btn:hover,.sign-in-btn:hover{
     transform: scale(0.95);
 }
