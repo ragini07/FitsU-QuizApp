@@ -75,6 +75,9 @@ ul{
 .btn a{
     color: var(--lg-color);
 }
+.btn-secondary{
+    background-color: var(--font--secondary-color);
+}
 .promo-img{
     max-width: 35rem;
 
