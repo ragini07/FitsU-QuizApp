@@ -109,6 +109,7 @@ ul{
 .card-with-overlay img{
     max-width: 250px;
     height: 250px;
+
 }
 .card-title{
     color: var(--lg-color);
