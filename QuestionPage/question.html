@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://fitsu-ui-design.netlify.app/css/components.css">
     <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="./rules.css">
+    <link rel="stylesheet" href="./question.css">
     <script src="https://kit.fontawesome.com/70067cae33.js" crossorigin="anonymous"></script>
     <title>FitsU-Cart</title>
 </head>
@@ -29,15 +29,36 @@
         </nav>
 
         <div class="main-container">
-            <div class="rule-container">
-                <h2>Rules</h2>
-                <ul class="stacked">
-                    <li class="list"><i class="fas fa-star filled-star"></i>There is only correct option for each question</li>
-                    <li class="list"><i class="fas fa-star filled-star"></i>Each right answer will score 10 points</li>
-                    <li class="list"><i class="fas fa-star filled-star"></i>Pass Percentage - 70%</li>
-               </ul>
-               <button class="btn"><a href="../QuestionPage/question.html">Start Quiz</i></a></button>
-            </div>
+          <div class="quiz-card">
+              <div class="quiz-section-1">
+                  <h3>Question : 1/5</h3>
+                  <h3>Score : 0</h3>
+              </div>
+              <div class="quiz-section-2">
+                  <div class="question">Which of the below is the biggest reptile in the World?</div>
+              </div>
+              <div class="quiz-section-3">
+                  <div class="options">
+                        <label for="option1">
+                            <input type="radio" name="radio" id="option1">
+                            Green anaconda
+                        </label>
+                        <label for="option2">
+                            <input type="radio" name="radio" id="option2">
+                            Green anaconda
+                        </label>
+                        <label for="option3">
+                            <input type="radio" name="radio" id="option3">
+                            Green anaconda
+                        </label>
+                        <label for="option4">
+                            <input type="radio" name="radio" id="option4">
+                            Green anaconda
+                        </label>
+                  </div>
+              </div>
+              <button class="btnn"><a href="../ResultPage/result.html">Next <i class="fa fa-arrow-right"></i></a></button>
+          </div>
 
         </div>
 
