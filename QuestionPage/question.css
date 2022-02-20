@@ -46,3 +46,9 @@
 .btnn{
     background-color: var(--font--secondary-color);   
 }
+.sm-btn-left{
+    margin-right: auto;
+}
+.sm-btn-right{
+    margin-left: auto;
+}
