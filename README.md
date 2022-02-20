@@ -18,7 +18,7 @@
 * [MCQ Based Question Page](https://fitsu-quizapp.netlify.app/questionpage/question)
 * [Result Page](https://fitsu-quizapp.netlify.app/resultpage/result)
 * [Authentication](https://fitsu-quizapp.netlify.app/auth/login)
-* [User Profile](https://fitsu-quizapp.netlify.app/auth/login)
+* [User Profile](https://fitsu-quizapp.netlify.app/userprofile/user-profile)
 
 
 
